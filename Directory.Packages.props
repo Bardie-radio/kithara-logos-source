@@ -1,0 +1,9 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Bardie.Logos.Contracts" Version="0.1.0" />
+    <PackageVersion Include="Bardie.Logos.Channel" Version="0.1.0" />
+  </ItemGroup>
+</Project>
