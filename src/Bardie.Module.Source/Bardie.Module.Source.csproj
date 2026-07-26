@@ -5,7 +5,6 @@
     <AssemblyName>Bardie.Module.Source</AssemblyName>
     <IsPackable>true</IsPackable>
     <PackageId>Bardie.Module.Source</PackageId>
-    <Version>0.1.0</Version>
     <Description>SourceModule base, search_fields Register customizer, FIFO sink, track-job registry, and Kithara BlobStorage/Library dial clients for Bardie source modules.</Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
@@ -15,10 +14,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../../../logos/src/Bardie.Logos.Contracts/Bardie.Logos.Contracts.csproj" Condition="Exists('../../../logos/src/Bardie.Logos.Contracts/Bardie.Logos.Contracts.csproj')" />
-    <ProjectReference Include="../../../logos/src/Bardie.Logos.Channel/Bardie.Logos.Channel.csproj" Condition="Exists('../../../logos/src/Bardie.Logos.Channel/Bardie.Logos.Channel.csproj')" />
-    <PackageReference Include="Bardie.Logos.Contracts" Condition="!Exists('../../../logos/src/Bardie.Logos.Contracts/Bardie.Logos.Contracts.csproj')" />
-    <PackageReference Include="Bardie.Logos.Channel" Condition="!Exists('../../../logos/src/Bardie.Logos.Channel/Bardie.Logos.Channel.csproj')" />
+    <PackageReference Include="Bardie.Logos.Contracts" />
+    <PackageReference Include="Bardie.Logos.Channel" />
   </ItemGroup>
 
   <ItemGroup>

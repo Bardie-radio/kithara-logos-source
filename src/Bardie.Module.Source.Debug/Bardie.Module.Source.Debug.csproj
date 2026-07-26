@@ -5,7 +5,6 @@
     <AssemblyName>Bardie.Module.Source.Debug</AssemblyName>
     <IsPackable>true</IsPackable>
     <PackageId>Bardie.Module.Source.Debug</PackageId>
-    <Version>0.1.0</Version>
     <Description>
       Debug-only FIFO / protocol smoke fixtures for Bardie source modules (sine proof track).
       Reference from Debug / test builds only — do not ship in production module images.

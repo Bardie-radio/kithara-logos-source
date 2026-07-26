@@ -4,5 +4,20 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
+
+    <Version>0.1.0</Version>
+
+    <Authors>Bardie</Authors>
+    <Company>Bardie-radio</Company>
+    <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/Bardie-radio/kithara-logos-source</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Bardie-radio/kithara-logos-source</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)LICENSE" Pack="true" PackagePath="\" Condition="Exists('$(MSBuildThisFileDirectory)LICENSE')" />
+  </ItemGroup>
 </Project>
